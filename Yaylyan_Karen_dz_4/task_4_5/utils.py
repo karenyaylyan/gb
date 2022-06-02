@@ -19,5 +19,3 @@ def currency_rates(valute_code):
         return valute_result, date_result
 
     return None
-
-    
