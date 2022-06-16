@@ -19,8 +19,8 @@ def val_checker(func_check):
 
 
 @val_checker(lambda x: x > 0)
-def calc_cube(*args, **kwargs):
-    return 3
+def calc_cube(x):
+    return x ** 3
 
 
 a = calc_cube(5)
